@@ -1,0 +1,315 @@
+/* -------------------------------------------------------------------------------------- */
+
+/* responsive start */
+
+@media(min-width:992px) and (max-width:1200px){
+   
+    .bimg{
+        height: 100%;
+    }
+    .bimgcon{
+        height: auto;
+        width:70%;
+        top: 15%;
+        left: 16%;
+    }
+    .bimgcon h2{
+        font-size: 70px;
+        word-spacing: 8px;
+    }
+    .bimgcon h1{
+        font-size: 65px;
+        word-spacing: 5px;
+    }
+    .bimgcon p{
+        font-size: 19px;
+        margin-top: 10px;
+        word-spacing: 2px;
+    }
+    .secon1 img{
+        height: 300px;
+    }
+    footer{
+        height: auto;
+       flex-wrap: wrap;
+    }
+    .ftmain{
+        height:300px;
+        flex-basis: 30%;
+        margin-top: 20px;
+    }
+}
+
+
+
+@media(min-width:768px) and (max-width:992px){
+   
+    .navbar-brand{
+        width: 25%;
+    }
+    #ni{
+        display: none;
+    }
+    .bimg{
+        height: 100%;
+    }
+    .bimgcon{
+        height: auto;
+        width:70%;
+        top: 10%;
+        left: 15%;
+    }
+    .bimgcon h2{
+        font-size: 60px;
+        word-spacing: 5px;
+    }
+    .bimgcon h1{
+        font-size: 50px;
+        word-spacing: 5px;
+    }
+    .bimgcon p{
+        font-size: 19px;
+        margin-top: 0px;
+        word-spacing: 1px;
+    }
+    #second{
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .sec{
+        flex-basis: 50%;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    #count1{
+        width: 95%;
+    }
+    .cocon #con{
+        font-size: 20px;
+    }
+    .fi1con button{
+        margin-top: 10px;
+    }
+    .sicon p{
+        padding: 10px 70px;
+    }
+    .seven{
+        padding: 50px;
+    }
+    .secon1 img{
+        height: 250px;
+    }
+    footer{
+        height: auto;
+       flex-wrap: wrap;
+    }
+    .ftmain{
+        height:300px;
+        flex-basis: 50%;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+@media(min-width:576px) and (max-width:768px){
+    .navbar-brand{
+        width: 25%;
+    }
+    #ni{
+        display: none;
+    }
+    .bimg{
+        height: 100%;
+    }
+    .bimgcon{
+        height: auto;
+        width:90%;
+        top: 10%;
+        left: 4%;
+    }
+    .bimgcon h2{
+        font-size: 60px;
+        word-spacing: 5px;
+    }
+    .bimgcon h1{
+        font-size: 50px;
+        word-spacing: 5px;
+    }
+    .bimgcon p{
+        font-size: 19px;
+        margin-top: 0px;
+        word-spacing: 1px;
+    }
+    #second{
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .sec{
+        flex-basis: 50%;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .thi{
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+    .thicon{
+        margin-top: 30px;
+        flex-basis: 40%;
+    }
+    #count1{
+        width: 95%;
+    }
+    .cocon #con{
+        font-size: 15px;
+    }
+    .five{
+        height: auto;
+        flex-direction: column-reverse;
+        /* border: 1px solid black; */
+    }
+    .fi1{
+        margin-top: 50px;
+        width: 99%;
+    }
+    .carousel{
+        width: 100%;
+    }
+    .sicon h1{
+        font-size: 40px;
+    }
+    .sicon p{
+        padding: 10px 80px;
+    }
+    .seven{
+        padding: 50px;
+    }
+    .sevmain{
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .secon1{
+        flex-basis: 35%;
+        margin-top: 50px;
+    }
+    .secon1 img{
+        height: 300px;
+    }
+    footer{
+        height: auto;
+       flex-wrap: wrap;
+    }
+    .ftmain{
+        height: 290px;
+        flex-basis: 50%;
+        margin-top: 20px;
+    }
+    .ftr h6{
+        font-size: 15px;
+    }
+}
+
+
+
+
+@media(min-width:0px) and (max-width:576px){
+    .navbar-brand{
+        width: 35%;
+    }
+    #ni{
+        display: none;
+    }
+    .bimg{
+        height: 100%;
+    }
+    .bimgcon{
+        height: auto;
+        width:90%;
+        top: 15%;
+        left: 4%;
+    }
+    .bimgcon h2{
+        font-size: 60px;
+        word-spacing: 5px;
+    }
+    .bimgcon h1{
+        font-size: 50px;
+        word-spacing: 5px;
+    }
+    .bimgcon p{
+        font-size: 19px;
+        margin-top: 0px;
+        word-spacing: 1px;
+    }
+    #second{
+        height: auto;
+        flex-direction: column;
+        margin-top: 30px;
+        /* border: 1px solid black; */
+    }
+    .sec{
+        width: 50%;
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+    .thi{
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+    .thicon{
+        margin-top: 30px;
+        flex-basis: 40%;
+    }
+    #count1{
+        width: 95%;
+    }
+    .cocon #con{
+        font-size: 15px;
+    }
+    .five{
+        height: auto;
+        flex-direction: column-reverse;
+        /* border: 1px solid black; */
+    }
+    .fi1{
+        margin-top: 50px;
+        width: 99%;
+    }
+    .carousel{
+        width: 100%;
+    }
+    .sicon h1{
+        font-size: 40px;
+    }
+    .sicon p{
+        padding: 10px 80px;
+    }
+    .seven{
+        padding: 50px;
+    }
+    .sevmain{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .secon1{
+        margin-top: 50px;
+    }
+    footer{
+        height: auto;
+       flex-wrap: wrap;
+    }
+    .ftmain{
+        height:300px;
+        flex-basis: 50%;
+        margin-top: 20px;
+    }
+    .ftr h6{
+        font-size: 15px;
+    }
+}
