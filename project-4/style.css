@@ -1,0 +1,1138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    /* border: 1px solid black; */
+}
+.hmain{
+    height: 100px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+.logo{
+    height: 100px;
+    width: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fa{
+    display: none;
+}
+nav ul{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    /* border: 1px solid black; */
+    transition: 1s;
+}
+nav ul li{
+    padding:25px;
+    font-size: 22px;
+}
+nav ul .h{
+    padding: 10px;
+    font-size:25px;
+    transition: 1s;
+}
+nav ul li:hover{
+    color: palevioletred;
+    cursor: pointer;
+}
+nav ul .h:hover{
+    color: palevioletred;
+    cursor: pointer;
+}
+
+
+/* swiper section strat */
+
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(224, 214, 192);
+}
+.smain{
+    height:100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.scon{
+    height: auto;
+    flex-basis: 45%;
+    color: white;
+    /* border: 1px solid black; */
+}
+.scon1{
+    margin-left: 20px;
+    padding: 20px;
+    /* border: 1px solid black; */
+}
+.scon1 span{
+    font-size:100px;
+    font-weight: bold;
+    font-family: "Sofia", sans-serif;
+}
+.scon1 p{
+    font-size: 19.5px;
+    line-height: 28px;
+}
+.scon1 button{
+    font-size:18px;
+    padding: 10px;
+    width: 160px;
+    height: 50px;
+    border-radius:90px;
+    margin-top: 20px;
+    border: 0px solid palevioletred;
+    background-color: palevioletred;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+.scon1 button:hover{
+    background-color: rgb(68, 145, 68);
+}
+.scon img{
+    height:auto;
+    width: 90%;
+    /* border: 1px solid black; */
+}
+
+/* third section start */
+.tmain{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:  linear-gradient(rgba(252, 250, 247, 0.5),rgba(247, 243, 239, 0.5)) , url(image/second.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* border: 1px solid black; */
+}
+.tcon{
+    height: auto;
+    flex-basis: 45%;
+    /* border: 1px solid black; */
+}
+.tcon img{
+    height:100%;
+    width: 100%;
+}
+.tcon1 {
+    height: auto;
+    width: 90%;
+    padding:25px;
+    /* border: 1px solid black; */
+}
+.tcon1 h3{
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Sofia", sans-serif;
+    color: burlywood;
+}
+.tcon1 h2{
+    font-size: 55px;
+    margin-top: 10px;
+}
+.tcon1 h2 span{
+    color: palevioletred;
+}
+.tcon1 p{
+    /* border: 1px solid black; */
+    padding: 20px 5px;
+    font-size: 17.5px;
+    line-height: 30px;
+    margin-top: 10px;
+    color: gray;
+}
+.tcon1 button{
+    border: 1px solid palevioletred;
+    background-color: transparent;
+    padding: 10pa;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    margin-top: 25px;
+    font-size: 18px;
+    transition: 1s;
+}
+.tcon1 button:hover{
+    background-color: palevioletred;
+    color: white;
+    cursor: pointer;
+}
+/* four section start */
+.four{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background-color:white;
+}
+.four h3{
+    /* margin-top:30px; */
+    font-size: 30px;
+    font-family: "Sofia", sans-serif;
+    color: burlywood;
+}
+.four h2{
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.fmain{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fcon{
+    height: auto;
+    flex-basis: 22%;
+    margin-bottom:70px;
+    padding: 1px;
+    transition: 1s;
+}
+    .fcon:hover{
+        box-shadow: 3px 3px 3px 5px lightgray;
+    }
+.fconimg{
+    overflow: hidden;
+}
+.fconimg img{
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    transition: 1s;
+}
+.fconimg img:hover{
+    transform:scale(1.1) rotate(5deg);
+    opacity: 0.5;
+    cursor: pointer;
+}
+.fcon h4{
+    font-size: 22px;
+    margin-top: 25px;
+}
+.fcon h6{
+    font-size: 15px;
+    margin-top: 5px;
+    color: gray;
+}
+
+
+/* five section start */
+
+.five{
+    height:130vh;
+    width: 100%;
+    border: 1px solid lightgray;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(247, 247, 247, 0.5)) , url(image/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.fimain{
+    height: 600px;
+    width: 650px;
+    background-image:  linear-gradient(rgba(36, 35, 35, 0.5),rgba(189, 184, 184, 0.5)) , url(image/round.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 60px;
+    position: relative;
+    margin-left: 150px;
+}
+.ficon{
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    text-align: center;
+    color: white;
+    /* border: 1px solid black; */
+}
+.ficon h5{
+    margin-top:10px;
+    font-size:28px;
+    font-family: "Sofia", sans-serif;
+    color: rgb(255, 154, 2);
+}
+.ficon h3{
+    font-size: 47px;
+    margin-top:10px;
+}
+.ficon p{
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 10px;
+    padding: 9px;
+}
+.ficon h2{
+    margin-top: 10px;
+}
+.ficon input{
+    height: 60px;
+    width: 70%;
+    margin-top: 40px;
+    border-radius: 30px;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    font-weight: bold;
+}
+.ficon .fa{
+    /* color: gray; */
+    padding: 10px;
+    font-size: 32px;
+    /* border: 1px solid black; */
+    margin-left: -70px;
+    cursor: pointer;
+}
+.fback img{
+    height: auto;
+    width: 100%;
+    margin-top: -120px;
+    /* border: 1px solid black; */
+}
+
+/* six section start */
+.six{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+    background-color: white;
+}
+.simain{
+    height: auto;
+    width: 90%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    /* border: 1px solid red; */
+}
+.sihdr{
+   text-align: center;
+}
+.sihdr h3{
+    font-size:30px;
+    font-family: "Sofia", sans-serif;
+    color: burlywood;
+}
+.sihdr h1{
+    font-size: 50px;
+}
+.sicon{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    /* border: 1px solid black;     */
+}
+
+.sicon1{
+    height: auto;
+    flex-basis: 33%;
+    padding: 10px;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.sicon2{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: start;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+.siimg{
+    /* border: 1px solid black; */
+    flex-basis: 20%;
+    background-color: rgb(248, 95, 39);
+    border-radius: 50%;
+}
+.sicn{
+    flex-basis:69%;
+}
+.sicn h3{
+    font-size: 25px;
+}
+.sicn p{
+    /* border: 1px solid black; */
+    margin-top:10px;
+    font-size: 18px;
+    color: gray;
+    line-height: 29px;
+}
+.sicon1i{
+    flex-basis: 20%;
+    /* border: 1px solid black; */
+}
+
+/* seven section start */
+
+.seven{
+    height:100vh;
+    width: 100%;
+    background-image:url(image/b5.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    /* object-fit: fill; */
+}
+.semain{
+    height: auto;
+    width: 35%;
+    position: absolute;
+    top: 15%;
+    left:7%;
+    /* border: 1px solid black; */
+}
+.semain h1{
+    font-size: 65px;
+}
+.semain p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    /* color: whitesmoke; */
+}
+.semain button{
+    height: auto;
+    width: 180px;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 19px;
+    transition: 1s;
+    border: 1px solid palevioletred;
+}
+.semain button:hover{
+    background-color: palevioletred;
+    cursor: pointer;
+    color: white;
+}
+
+
+/* nine section start */
+.nine{
+    height:auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    cursor: pointer;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(238, 230, 230, 0.5)),url(image/sbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: white; */
+}
+.n1{
+    height: auto;
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.n1 h3{
+    font-size:30px;
+    font-family: "Sofia", sans-serif;
+    color: rgb(255, 6, 6);
+}
+.n1 h1{
+    margin-top: 10px;
+    font-size: 60px;
+}
+.ncon .img{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 40%;
+    object-fit: cover;
+    border: 9px solid whitesmoke;
+    transition: 1s;
+    /* border: 1px solid black; */
+}
+.ncon h2{
+    font-size: 45px;
+    color: orangered;
+    margin-top: 15px;
+}
+.ncon p{
+    margin-top: 10px;
+    font-size:18px;
+    padding: 20px;
+    line-height:25px;
+    color: gray;
+}
+.ncon h4{
+    font-size: 18px;
+}
+.ncon h5{
+    color: gray;
+}
+.ncon:hover img{
+    box-shadow: 5px 5px 5px 5px gray;
+}
+/* slider section start */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .slider {
+      width: 100%;
+      margin: auto;
+      /* border: 1px solid black; */
+  }
+
+  .slick-slide {
+    margin-top: auto;
+    margin: 50px 15px;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    color:white;
+    padding: 5px;
+  }
+  .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+  }
+  
+  .slick-active {
+    opacity: .5;
+  }
+
+  .slick-current {
+    opacity: 1;
+  }
+
+/* ten section start */
+
+.ten{
+    height: auto;
+    width: 100%;
+    background-color: white;
+    /* border: 1px solid black; */
+}
+.ten h3{
+    font-size:32px;
+    font-family: "Sofia", sans-serif;
+    color: rgb(236, 169, 81);
+    text-align: center;
+}
+.ten h1{
+    text-align: center;
+    font-size: 50px;
+}
+.ten p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 20px;
+    color: gray;
+}
+.temain{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+.tecon{
+    height: auto;
+    width: 89%;
+    /* border: 1px solid black; */
+    margin-bottom: 100px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+
+}
+.te1{
+    text-align: center;
+    height: 500px;
+    flex-basis: 30%;
+    margin-top: 30px;
+    background-color: rgb(240, 240, 240);
+    transition: 1s;
+    overflow: hidden;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+}
+.te1:hover{
+    box-shadow: 3px 3px 3px 5px rgb(190, 190, 190);
+}
+.te1 img{
+    height: 250px;
+    width: 100%;
+    transition: 1s;
+    cursor: pointer;
+}
+.te1 img:hover{
+    transform: scale(1.1);
+    opacity: 0.4;
+}
+.te1 button{
+    height: 35px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    transition: 1s;
+    border: 1px solid green;
+}
+.te1 button:hover{
+    background-color: white;
+    color: green;
+    cursor: pointer;
+}
+ .te1 .tebtn1{
+    margin-top: 30px;
+}
+.te1 h2{
+    font-size:22px;
+    margin-top:25px;
+    transition: 1s;
+}
+.te1 h2:hover{
+    color: green;
+}
+.te1 .t1c{
+    font-size: 15px;
+    line-height: 50px;
+}
+.te1 .t2c{
+    font-size: 15px;
+    line-height: 50px;
+    margin-left: 50px;
+    color: green;
+}
+
+/* eight section start */
+.eight{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eight .emain{
+    height: auto;
+    flex-basis: 22%;
+    position: relative;
+}
+.emain img{
+    height: auto;
+    width: 100%;
+}
+ .emain::after{
+    content: "";
+    height: auto;
+    width: 0px;
+    background-color:rgb(247, 143, 9);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    transition: 1s;
+}
+.emain:hover::after{
+    height: auto;
+    width: 100%;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+/* footer section start */
+
+footer{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+.fomain{
+    height: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+.focon{
+    height: 350px;
+    flex-basis: 24%;
+    margin-top: 70px;
+    padding: 10px;
+    margin-bottom: 20px;
+    /* border: 1px solid white; */
+}
+.focon p{
+    font-size: 15px;
+    margin-top: 25px;
+    line-height: 20px;
+    padding-left: 10px;
+    color: gainsboro;
+}
+.focon #hom{
+    font-size:20px;
+    margin-top: 20px;
+    color: gray;
+    /* border: 1px solid white; */
+}
+.focon span{
+    color: whitesmoke;
+    font-size: 16px;
+    padding-left:10px;
+    /* border: 1px solid white; */
+}
+.focon form{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid white; */
+}
+form input{
+    height: 60px;
+    width: 100%;
+    padding: 20px;
+    background-color: transparent;
+    margin-top: 30px;
+    color: white;
+    border: 1px solid white;
+}
+form button{
+    height: 60px;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+    transition: 1s;
+    border: 0px solid black;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color:rgb(247, 143, 9);
+    color: white;
+    font-weight: bold;
+}
+form button:hover{
+    background-color: white;
+    color: black;
+}
+.focon h1{
+    font-size: 22px;
+    padding: 10px;
+}
+#foic{
+    font-size: 18px;
+    padding:5px;
+    color: whitesmoke;
+}
+.ft1{
+    border: 1px solid black;
+    font-size: 11px;
+    text-align: center;
+    background-color: #000;
+    color: rgb(236, 236, 236);
+    padding: 20px;
+}
+
+
+
+/* ------------------------------------------------------------------------------- */
+
+
+/* responsive start */
+
+
+@media(min-width:769px) and (max-width:992px){
+    header{
+        width: 100%;
+        position: relative;
+    }
+    .hmain{
+        width: 80%;
+    }
+     #fa{
+       margin-left: 490px;
+        font-size: 30px;
+        cursor: pointer;
+        display: block;
+    }
+    nav ul{
+        height: auto;
+        position: absolute;
+        top: 100px;
+        width: 100%;
+        left: 0;
+        display: none;
+        background-color: black;
+        color: white;
+    }
+    .swiper{
+        opacity: 0.8;
+    }
+    .scon{
+        height: auto;
+        flex-basis: 50%;
+        color: white;
+        /* border: 1px solid black; */
+    }
+    .scon1 span{
+        font-size:70px;
+    }
+    .scon1 p{
+        font-size: 15px;
+    }
+    .scon img{
+        height:auto;
+        width: 100%;
+        margin-top: 150px;
+        /* border: 1px solid black; */
+    }
+    .tmain{
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .fmain{
+        height: auto;
+        flex-wrap: wrap;
+        /* border: 1px solid black; */
+    }
+    .fcon{
+        height: auto;
+        flex-basis: 43%;
+    }
+    .fconimg img{
+        height: 400px;
+    }
+    .fimain{
+        width: 550px;
+        height:520px;
+        top: 12%;
+        margin-left: 20px;
+    }
+    .ficon{
+        top: 90px;
+    }
+    .sicon{
+        flex-wrap: wrap;
+    }
+    .sicon1:nth-child(3){
+       flex-basis: 80%;
+
+    }
+    .sicon1{
+        flex-basis: 50%;
+    }
+    .semain{
+        width:80%;
+        top: 21%;
+    }
+    .semain h1{
+        font-size:60px;
+    }
+    .semain p{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .n1{
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .n1 h1{
+        font-size:58px;
+    }
+    .tecon{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .te1{
+        flex-basis:48%;
+    }
+    .fomain{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .focon{
+        height: 300px;
+        flex-basis: 45%;
+        margin-top: 0px;
+        /* border: 1px solid white; */
+    }
+}
+
+
+@media(min-width:576px) and (max-width:768px){
+    header{
+        width: 100%;
+        position: relative;
+    }
+    .hmain{
+        width: 80%;
+    }
+     #fa{
+       margin-left: 350px;
+        font-size: 30px;
+        cursor: pointer;
+        display: block;
+    }
+    nav ul{
+        height: auto;
+        position: absolute;
+        top: 100px;
+        width: 100%;
+        left: 0;
+        display: none;
+        background-color: black;
+        color: white;
+    }
+    .swiper{
+        opacity: 0.8;
+    }
+    .scon{
+        height: auto;
+        flex-basis: 50%;
+        color: white;
+        /* border: 1px solid black; */
+    }
+    .scon1 span{
+        font-size:70px;
+    }
+    .scon1 p{
+        font-size: 15px;
+    }
+    .scon img{
+        height:250px;
+        width: 100%;
+        margin-top: 150px;
+        /* border: 1px solid black; */
+    }
+    .tmain{
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .fmain{
+        height: auto;
+        flex-wrap: wrap;
+        /* border: 1px solid black; */
+    }
+    .fcon{
+        flex-basis: 48%;
+    }
+    .fimain{
+        width: 550px;
+        height:520px;
+        top: 12%;
+        margin-left: 0px;
+    }
+    .ficon{
+        top: 90px;
+        /* border: 1px solid black; */
+    }
+    .sicon{
+        flex-direction: column;
+    }
+    .semain{
+        width:80%;
+        top: 21%;
+    }
+    .semain h1{
+        font-size:60px;
+    }
+    .semain p{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .n1{
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .n1 h1{
+        font-size:58px;
+    }
+    .tecon{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .te1{
+        flex-basis:48%;
+    }
+    .fomain{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .focon{
+        height: 300px;
+        flex-basis: 45%;
+        margin-top: 0px;
+        /* border: 1px solid white; */
+    }
+}
+
+
+
+@media(min-width:0px) and (max-width:576px){
+    header{
+        width: 100%;
+        position: relative;
+    }
+    .hmain{
+        width: 80%;
+    }
+     #fa{
+       margin-left: 300px;
+        font-size: 30px;
+        cursor: pointer;
+        display: block;
+    }
+    nav ul{
+        height: auto;
+        position: absolute;
+        top: 100px;
+        width: 100%;
+        left: 0;
+        display: none;
+        background-color: black;
+        color: white;
+    }
+    .swiper{
+        opacity: 0.8;
+    }
+    .scon{
+        height: auto;
+        flex-basis: 50%;
+        color: white;
+        /* border: 1px solid black; */
+    }
+    .scon1 span{
+        font-size:70px;
+    }
+    .scon1 p{
+        font-size: 15px;
+    }
+    .scon img{
+        height:250px;
+        width: 100%;
+        margin-top: 150px;
+        /* border: 1px solid black; */
+    }
+    .tmain{
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .fmain{
+        height: auto;
+        flex-direction: column;
+    }
+    .fimain{
+        width: 550px;
+        height:520px;
+        top: 12%;
+        margin-left: 0px;
+    }
+    .ficon{
+        top: 90px;
+    }
+    .sicon{
+        flex-direction: column;
+    }
+    .semain{
+        width:80%;
+        top: 23%;
+        /* border: 1px solid black; */
+    }
+    .semain h1{
+        font-size:60px;
+    }
+    .semain p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .n1{
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .n1 h1{
+        font-size:50px;
+    }
+    .tecon{
+        flex-direction: column;
+    }
+    .fomain{
+        flex-direction: column;
+    }
+    .focon{
+        width: 90%;
+        margin-top: 10px;
+        /* border: 1px solid white; */
+    }
+}
